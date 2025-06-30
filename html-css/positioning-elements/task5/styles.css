@@ -25,8 +25,9 @@
   height: 200px;
   width: 200px;
   background-color: aquamarine;
-  margin-left: calc(50% - 100px);
-  margin-top: calc(50% - 100px);
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
   z-index: 50;
 }
 
@@ -55,14 +56,16 @@
   width: 30px;
   border-radius: 50%;
   background-color: gray;
-  position: relative;
-  top: 80px;
 }
 
 .eye_left {
+  position: absolute;
+  top: 80px;
   left: 40px;
 }
 
 .eye_right {
-  right: -130px;
+  position: absolute;
+  top: 80px;
+  right: 40px;
 }
