@@ -8,12 +8,16 @@
   z-index: 100;
 }
 
+.nav-list {
+  margin: 0;
+  line-height: 40px;
+  list-style: none;
+}
+
 .nav-item {
   color: white;
   float: left;
   margin-left: 16px;
-  list-style: none;
-  line-height: 10px;
 }
 
 .content {
