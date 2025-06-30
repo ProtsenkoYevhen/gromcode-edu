@@ -1,6 +1,11 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 40px;
   background-color: darkturquoise;
+  z-index: 100;
 }
 
 .navigation {
@@ -37,7 +42,7 @@
   height: 200px;
   background-color: aquamarine;
   position: relative;
-  top: 260px;
+  top: 160px;
 }
 
 .ear {
