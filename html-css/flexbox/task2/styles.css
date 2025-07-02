@@ -1,7 +1,8 @@
 .block {
   height: 100px;
+  width: 100px;
   flex-grow: 1;
-  min-width: 100px;
+  flex-shrink: 0;
 }
 
 .container {
