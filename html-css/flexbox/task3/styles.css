@@ -57,10 +57,8 @@
 }
 
 .newsline_text {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 16px;
-  margin-top: 0;
+  text-align: center;
+  margin: 16px 0;
 }
 
 .news {
