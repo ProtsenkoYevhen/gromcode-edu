@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 .gallery {
   display: flex;
-  box-sizing: border-box;
 }
 
 .image {
