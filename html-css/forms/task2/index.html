@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div class="forms">
+        <label>Last Name</label>
+        <input type="text" name="lastName" value="Emerson" readonly />
+      </div>
+      <div class="forms">
+        <label>Age</label>
+        <input type="number" name="age" value="17" min="3" max="10" />
+      </div>
+      <div class="forms">
+        <input type="checkbox" name="agree" disabled />
+        <label> Accept terms and conditions </label>
+      </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="secret" />
+        <label for="secret">Secret</label>
+      </div>
+      <div class="forms">
+        <textarea
+          name="description"
+          placeholder="Write description..."
+          maxlength="10"
+        ></textarea>
+      </div>
+      <div class="forms">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
