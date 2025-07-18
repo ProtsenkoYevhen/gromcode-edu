@@ -20,11 +20,11 @@
   fill: white;
 }
 
+.bird-icon:hover {
+  fill: green;
+}
+
 .button-main:hover {
   color: darkcyan;
   cursor: pointer;
-}
-
-.button-main:hover > .bird-icon {
-  fill: green;
 }
