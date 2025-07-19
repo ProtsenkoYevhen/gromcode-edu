@@ -4,3 +4,10 @@
   background-color: tomato;
   transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
+
+.text {
+  background-color: #ffdae0;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 8px;
+}
