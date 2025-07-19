@@ -24,6 +24,7 @@
   animation: loading 2s infinite linear;
   margin: auto;
   margin-bottom: 8px;
+  box-sizing: border-box;
 }
 
 @keyframes blinking {
