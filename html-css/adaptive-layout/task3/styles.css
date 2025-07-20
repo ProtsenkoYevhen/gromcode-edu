@@ -4,5 +4,12 @@
 
 .content {
   margin: auto;
+}
+
+.photo {
+  height: auto;
+  width: 100%;
   max-width: 100%;
+  display: block;
+  object-fit: contain;
 }
