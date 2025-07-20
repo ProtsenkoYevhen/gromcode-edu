@@ -26,6 +26,10 @@ html {
   list-style-type: none;
 }
 
+.main {
+  width: 20vw;
+}
+
 .navigation {
   padding: 0.5em;
   width: 20vw;
