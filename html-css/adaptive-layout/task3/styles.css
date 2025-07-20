@@ -4,6 +4,8 @@
 
 .content {
   margin: auto;
+}
+
+.photo {
   max-width: 100%;
-  min-height: 100%;
 }
