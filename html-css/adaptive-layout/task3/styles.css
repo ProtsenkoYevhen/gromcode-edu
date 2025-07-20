@@ -1,0 +1,8 @@
+.gallery {
+  display: flex;
+}
+
+.content {
+  margin: auto;
+  max-width: 100%;
+}
