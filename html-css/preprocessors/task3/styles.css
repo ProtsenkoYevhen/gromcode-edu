@@ -1,0 +1,60 @@
+.header {
+  height: 3em;
+  background-color: #006400;
+  color: white;
+}
+
+.menu {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.menu__item_active {
+  color: #ff0;
+}
+.menu__item {
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0 0 3em;
+  padding: 0 8px;
+  list-style-type: none;
+  position: relative;
+  cursor: pointer;
+}
+.menu__item:hover {
+  background-color: #9acd32;
+}
+.menu__item:hover > .submenu {
+  visibility: visible;
+}
+
+.submenu {
+  visibility: hidden;
+  position: absolute;
+  background-color: #ff7f50;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  min-width: 120px;
+  z-index: 1;
+  list-style-type: none;
+}
+.submenu__item {
+  padding: 0 8px;
+}
+.submenu__item :hover {
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
