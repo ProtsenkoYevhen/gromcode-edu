@@ -1,0 +1,14 @@
+@import 'layout.scss';
+
+@include for-md {
+  .product {
+    display: flex;
+    flex: 2;
+  }
+}
+
+@include for-xl {
+  .content {
+    display: flex;
+  }
+}
