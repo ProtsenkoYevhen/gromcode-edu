@@ -1,5 +1,4 @@
 no-var
 no-undef
-eqeqeq
 no-empty
 no-unused-vars
