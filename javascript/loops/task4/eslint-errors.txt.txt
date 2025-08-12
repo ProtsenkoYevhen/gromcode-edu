@@ -1,4 +1,0 @@
-no-var
-no-undef
-no-empty
-no-unused-vars
