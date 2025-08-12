@@ -4,3 +4,4 @@ no-empty
 no-unused-vars
 eqeqeq
 no-plusplus
+no-return-assign
